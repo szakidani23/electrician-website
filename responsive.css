@@ -278,4 +278,8 @@
   .azt-beszelik-name-opinion p:first-child {
     background-color:rgba(0, 0, 0, 0.481);
   }
+  
+  .slider-container img {
+    width:100%;
+  }
 }
