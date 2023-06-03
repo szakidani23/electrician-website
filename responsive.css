@@ -207,8 +207,13 @@
   }
 
   #hero {
-    background-position:-67%;
+    background-position:-60%;
     background-image: linear-gradient(to bottom, #213046, #000000a2),url(images/hero-bg.webp);
+  }
+  
+  
+  #hero h1 {
+    margin-top:5rem;
   }
 
   #responsive-btn {
