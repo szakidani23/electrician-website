@@ -218,6 +218,10 @@
   #hero h1 {
     margin-top:5rem;
   }
+  
+  #lakastuz {
+    background-image:linear-gradient(to bottom, #2130465c, #000000);
+  }
 
   #responsive-btn {
     font-size:18px;
