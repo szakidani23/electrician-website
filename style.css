@@ -43,7 +43,7 @@
 }
 
 #lakastuz {
-  background-image:linear-gradient(to bottom, #2130465c, #000000), url(images/mountain-fire.jpg);
+  background-image:linear-gradient(to bottom, #2130465c, #000000), url(images/mountain-fire.webp);
   background-size:cover;
   background-attachment: fixed;
   background-position:-280px;
