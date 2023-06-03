@@ -54,6 +54,9 @@
   .nagyobb-munka-images img {
    display:none;
   }
+  
+  #lakastuz {
+    background-attachment:none;
 
   #azt-beszelik {
     background-position:left;
