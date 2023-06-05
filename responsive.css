@@ -195,6 +195,9 @@
   #navbar button {
     display:none;
   }
+  
+  .reason img {
+    display:none;
 
   .dont-risk {
     font-size:32px;
