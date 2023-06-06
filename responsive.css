@@ -27,8 +27,6 @@
   hr {
     display:none;
   }
-
-
 }
 
 
@@ -54,9 +52,6 @@
   .nagyobb-munka-images img {
    display:none;
   }
-  
-  #lakastuz {
-    background-attachment:none;
 
   #azt-beszelik {
     background-position:left;
@@ -123,7 +118,6 @@
     font-size:24px;
   }
   
-
   .center-title h3 {
     font-size:72px;
   }
@@ -220,7 +214,7 @@
   }
   
   #lakastuz {
-    background-image:linear-gradient(to bottom, #2130465c, #000000);
+    background-image:linear-gradient(to bottom, #2130465c, #000000), url(images/mountain-fire-smaller.webp);
   }
 
   #responsive-btn {
