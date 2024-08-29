@@ -1,447 +1,497 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="button.css">
-    <link rel="icon" type="image/x-icon" href="images/websiteicon1.png">  <!--ICON GOES HERE-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
-    <!--CHANGE THE FONTS BELOW-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <title>Electrician Website</title>
-  </head>
-  <body>
-    <header>
-      <nav id="navbar">
-        <a href="index.html"><img loading="lazy" src="images/aramurak-logo-szines.png"></a>
-        <button class="cta">
-          <span class="span"><i class="fa-solid fa-phone telefon"></i> Call Us!</span>
-          <span class="second">
-            <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-              </g>
-            </svg>
-          </span> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="images/websiteicon1.png"> <!--ICON GOES HERE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
+  <!--CHANGE THE FONTS BELOW-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <title>Electrician Website</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="index.html"><img loading="lazy" src="images/aramurak-logo-szines.png"></a>
+      <button class="cta">
+        <span class="span"><i class="fa-solid fa-phone telefon"></i> Call Us!</span>
+        <span class="second">
+          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path class="one"
+                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="two"
+                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="three"
+                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                fill="#FFFFFF"></path>
+            </g>
+          </svg>
+        </span>
       </button>
-      </nav>
-    </header>
-    
-    <section id="hero">
-      <div class="language-selector">
-       <a href="english.html"><img src="images/united-kingdom.png"></a>
-        <a href="index.html"><img src="images/hungary.png"></a>
-      </div>
-      <div class="title-div">
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="language-selector">
+      <a href="english.html"><img src="images/united-kingdom.png"></a>
+      <a href="index.html"><img src="images/hungary.png"></a>
+    </div>
+    <div class="title-div">
       <h1>Masters of Electricity</h1>
       <hr>
-      </div>
-      <p>WE INSTALL ELECTRICAL SYSTEMS,
-        MAINTENANCE AND REPAIR.</p>
-        <button id="responsive-btn" class="cta">
-          <span class="span"><i class="fa-regular fa-lightbulb fa-bounce telefon"></i> Request an offer</span>
-          <span class="second">
-            <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-              </g>
-            </svg>
-          </span> 
-      </button>
-    </section>
+    </div>
+    <p>WE INSTALL ELECTRICAL SYSTEMS,
+      MAINTENANCE AND REPAIR.</p>
+    <button id="responsive-btn" class="cta">
+      <span class="span"><i class="fa-regular fa-lightbulb fa-bounce telefon"></i> Request an offer</span>
+      <span class="second">
+        <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <path class="one"
+              d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+              fill="#FFFFFF"></path>
+            <path class="two"
+              d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+              fill="#FFFFFF"></path>
+            <path class="three"
+              d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+              fill="#FFFFFF"></path>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </section>
 
-    <section id="lakastuz">
-      <div class="center-title">
-        <h2>The most common causes of house fires</h2>
-        <hr>
-      </div>
+  <section id="lakastuz">
+    <div class="center-title">
+      <h2>The most common causes of house fires</h2>
+      <hr>
+    </div>
 
 
-      <div class="reasons-container">
-        <div class="reason">
-          <img loading="lazy" class="fire-img" src="images/a-lakastuzek-1.webp">
-          <h3>Poorly maintained electrical equipment</h3>
-          <p>It is worth having the electrical network checked regularly by a professional.</p>
-        </div>
-
-        <div class="reason">
-          <img loading="lazy" class="fire-img" src="images/a-lakastuzek-2.webp">
-          <h3>Old, poorly managed wiring</h3>
-          <p>You need to replace them as soon as possible, otherwise they can cause a lot of trouble.</p>
-        </div>
-
-        <div class="reason">
-          <img loading="lazy" class="fire-img" src="images/a-lakastuzek-3.webp">
-          <h3>Carelessness, Inattention</h3>
-          <p>For example: candles, smoking, unattended food on the stove, etc.</p>
-        </div>
-
-      </div>
-      <div class="danger-div">
-        <h2 class="dont-risk">DO NOT RISK THE SAFETY OF YOU AND YOUR FAMILY!</h2>
-      </div>
-    </section>
-
-    <section id="otthonvedelem">
-      <div class="center-title">
-        <h2>Protecting your home</h2>
-        <hr>
-      </div>
-      <div class="center-title">
-        <h3>SERVICES</h3>
+    <div class="reasons-container">
+      <div class="reason">
+        <img loading="lazy" class="fire-img" src="images/a-lakastuzek-1.webp">
+        <h3>Poorly maintained electrical equipment</h3>
+        <p>It is worth having the electrical network checked regularly by a professional.</p>
       </div>
 
-      <div class="card-container">
-        <div class="card">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>Immediate troubleshooting</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> Flashing light? Squeaky fuse box? Smell burning? Power out in your home? Examples that require immediate troubleshooting.
-                Leave the job to us, we'll fix it!
-              </p>
-            </div>
+      <div class="reason">
+        <img loading="lazy" class="fire-img" src="images/a-lakastuzek-2.webp">
+        <h3>Old, poorly managed wiring</h3>
+        <p>You need to replace them as soon as possible, otherwise they can cause a lot of trouble.</p>
+      </div>
+
+      <div class="reason">
+        <img loading="lazy" class="fire-img" src="images/a-lakastuzek-3.webp">
+        <h3>Carelessness, Inattention</h3>
+        <p>For example: candles, smoking, unattended food on the stove, etc.</p>
+      </div>
+
+    </div>
+    <div class="danger-div">
+      <h2 class="dont-risk">DO NOT RISK THE SAFETY OF YOU AND YOUR FAMILY!</h2>
+    </div>
+  </section>
+
+  <section id="otthonvedelem">
+    <div class="center-title">
+      <h2>Protecting your home</h2>
+      <hr>
+    </div>
+    <div class="center-title">
+      <h3>SERVICES</h3>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>Immediate troubleshooting</h3>
           </div>
-        </div>
-
-        <div class="card card-two">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>Smaller installations</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> Need to replace a connector, switch or lamp? YES, we can do small jobs like this, on short notice and at a fair price.
-              </p>
-            </div>
+          <div id="card-text" class="card__content-body">
+            <p> Flashing light? Squeaky fuse box? Smell burning? Power out in your home? Examples that require immediate
+              troubleshooting.
+              Leave the job to us, we'll fix it!
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="card-container">
-        <div class="card card-three">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>Relocation of fittings</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> Are you thinking about a new socket or is the switch in the wrong place? We can also relocate and install switches, sockets, lights, thermostats.
-              </p>
-            </div>
+      <div class="card card-two">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>Smaller installations</h3>
+          </div>
+          <div id="card-text" class="card__content-body">
+            <p> Need to replace a connector, switch or lamp? YES, we can do small jobs like this, on short notice and at
+              a fair price.
+            </p>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="card card-four">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>Network survey</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> Want to know how safe your home's electricity network is? After the survey, I will provide expert advice and offer to repair any faults found.
-              </p>
-            </div>
+    <div class="card-container">
+      <div class="card card-three">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>Relocation of fittings</h3>
+          </div>
+          <div id="card-text" class="card__content-body">
+            <p> Are you thinking about a new socket or is the switch in the wrong place? We can also relocate and
+              install switches, sockets, lights, thermostats.
+            </p>
           </div>
         </div>
       </div>
 
-
-      
-
-      <div class="card-container">
-        <div class="card card-five">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>Installation of equipment</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> We can also connect electric hobs, electric cookers, boilers and electric ovens.
-               <b>HOME WIRING IS PROHIBITED!<br>
-                CAN ONLY BE DONE BY AN ELECTRICIAN!</b> 
-              </p>
-            </div>
+      <div class="card card-four">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>Network survey</h3>
+          </div>
+          <div id="card-text" class="card__content-body">
+            <p> Want to know how safe your home's electricity network is? After the survey, I will provide expert advice
+              and offer to repair any faults found.
+            </p>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="card card-six">
-          <div class="card__content">
-            <div id="card-title" class="card__content-heading">
-              <h3>SOS! IS THERE ANY TROUBLE? WE'RE COMING!</h3>
-            </div>
-            <div id="card-text" class="card__content-body">
-              <p> Need an electrician urgently? Our team is well equipped and prepared. Until our arrival, if possible, disconnect the power to the property.
-              </p>
-            </div>
+
+
+
+    <div class="card-container">
+      <div class="card card-five">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>Installation of equipment</h3>
+          </div>
+          <div id="card-text" class="card__content-body">
+            <p> We can also connect electric hobs, electric cookers, boilers and electric ovens.
+              <b>HOME WIRING IS PROHIBITED!<br>
+                CAN ONLY BE DONE BY AN ELECTRICIAN!</b>
+            </p>
           </div>
         </div>
       </div>
 
-      <h3 style="
+      <div class="card card-six">
+        <div class="card__content">
+          <div id="card-title" class="card__content-heading">
+            <h3>SOS! IS THERE ANY TROUBLE? WE'RE COMING!</h3>
+          </div>
+          <div id="card-text" class="card__content-body">
+            <p> Need an electrician urgently? Our team is well equipped and prepared. Until our arrival, if possible,
+              disconnect the power to the property.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="
       text-align: center;
       margin-bottom:25px;">We welcome your call every day of the week!</h3>
-      <button id="responsive-btn" class="cta" style="
+    <button id="responsive-btn" class="cta" style="
       margin:auto;">
-        <span class="span"><i class="fa-regular fa-lightbulb fa-bounce telefon"></i> Make an offer!</span>
-        <span class="second">
-          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-              <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-              <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-            </g>
-          </svg>
-        </span> 
-      </button>
-    </section>
+      <span class="span"><i class="fa-regular fa-lightbulb fa-bounce telefon"></i> Make an offer!</span>
+      <span class="second">
+        <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <path class="one"
+              d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+              fill="#FFFFFF"></path>
+            <path class="two"
+              d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+              fill="#FFFFFF"></path>
+            <path class="three"
+              d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+              fill="#FFFFFF"></path>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </section>
 
-    <section id="nagyobb-munka">
-      <div class="center-title">
-        <h2>We are also not afraid of bigger jobs</h2>
-        <hr>
-        <p>We also design and build complete electrical networks in accordance with standards.</p>
-      </div>
-      <div class="nagyobb-munka-images">
-        <img loading="lazy" src="images/a-nagyobb-munkaktol-sem-1.webp">
-        <img loading="lazy" src="images/a-nagyobb-munkaktol-sem-2.webp">
-      </div>
-    </section>
+  <section id="nagyobb-munka">
+    <div class="center-title">
+      <h2>We are also not afraid of bigger jobs</h2>
+      <hr>
+      <p>We also design and build complete electrical networks in accordance with standards.</p>
+    </div>
+    <div class="nagyobb-munka-images">
+      <img loading="lazy" src="images/a-nagyobb-munkaktol-sem-1.webp">
+      <img loading="lazy" src="images/a-nagyobb-munkaktol-sem-2.webp">
+    </div>
+  </section>
 
-    <section id="cta-line">
-      <div class="cta-line">
-        <h3>Do you need any other electrical work than the listed ones above?
-         </h3>
-        <button id="responsive-btn" class="cta">
+  <section id="cta-line">
+    <div class="cta-line">
+      <h3>Do you need any other electrical work than the listed ones above?
+      </h3>
+      <button id="responsive-btn" class="cta">
         <span class="span"><i class="fa-regular fa-lightbulb fa-bounce telefon"></i> Request an offer!</span>
         <span class="second">
-          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-              <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-              <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+              <path class="one"
+                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="two"
+                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="three"
+                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                fill="#FFFFFF"></path>
             </g>
           </svg>
-        </span> 
+        </span>
       </button>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="ovoda-line">
-      <div class="center-title">
-        <h2>Our Power in Numbers</h2>
-        <hr style="width:64%;">
+  <section id="ovoda-line">
+    <div class="center-title">
+      <h2>Our Power in Numbers</h2>
+      <hr style="width:64%;">
+    </div>
+    <div class="number-container">
+      <div class="number">
+        <span>15</span>
+        <p>years of experience</p>
       </div>
-      <div class="number-container">
-        <div class="number">
-          <span>15</span>
-          <p>years of experience</p>
-        </div>
-        <div class="number">
-          <span>256</span>
-          <p>electric shocks</p>
-        </div>
-        <div class="number">
-          <span>2</span>
-          <p>Master's degree</p>
-        </div>
-        <div class="number">
-          <span>100+</span>
-          <p>hundreds of satisfied customers</p>
-        </div>
+      <div class="number">
+        <span>256</span>
+        <p>electric shocks</p>
       </div>
-    </section>
-
-    <section id="why-choose-us">
-      <div class="center-title">
-        <h2>Why trust us?</h2>
-        <hr>
+      <div class="number">
+        <span>2</span>
+        <p>Master's degree</p>
       </div>
-      <div class="cards-container">
-        <div class="why-card">
-          <div class="content">
-            <div class="back">
-              <div class="back-content">
-                <div class="icon-desc">
-                  <i class="fa-solid fa-shield-halved"></i>
-                  <h3>Safety first</h3>
-                  <p>For us, the safety of YOU and your environment is paramount. Safety is the first consideration in all our electrical installation work.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="number">
+        <span>100+</span>
+        <p>hundreds of satisfied customers</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="why-card">
-          <div class="content">
-            <div class="back">
-              <div class="back-content">
-                <div class="icon-desc">
-                  <i class="fa-solid fa-handshake"></i>
-                  <h3>We listen to your needs</h3>
-                  <p>You will get what you ask for, and in the way you dreamed. Of course, in coordination with our professional expertise.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="why-card">
-          <div class="content">
-            <div class="back">
-              <div class="back-content">
-                <div class="icon-desc">
-                  <i class="fa-solid fa-medal"></i>
-                  <h3>We guarantee</h3>
-                  <p>We guarantee all the electrical installation work we carry out. We will give you this in writing when the work is finished.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="why-card">
-          <div class="content">
-            <div class="back">
-              <div class="back-content">
-                <div class="icon-desc">
-                  <i class="fa-solid fa-square-check"></i>
-                  <h3>We work with precision</h3>
-                  <p>Trust us and get quality work! With over 15 years of experience, our humility towards our profession is reflected in all our work.</p>
-                </div>
+  <section id="why-choose-us">
+    <div class="center-title">
+      <h2>Why trust us?</h2>
+      <hr>
+    </div>
+    <div class="cards-container">
+      <div class="why-card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <div class="icon-desc">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Safety first</h3>
+                <p>For us, the safety of YOU and your environment is paramount. Safety is the first consideration in all
+                  our electrical installation work.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="two-man-army">
-      <div class="center-title">
-        <h2>Army of two</h2>
-        <hr style="width:42%;">
+      <div class="why-card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <div class="icon-desc">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>We listen to your needs</h3>
+                <p>You will get what you ask for, and in the way you dreamed. Of course, in coordination with our
+                  professional expertise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="two-man-army-container">
-        <div class="image-container">
+
+      <div class="why-card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <div class="icon-desc">
+                <i class="fa-solid fa-medal"></i>
+                <h3>We guarantee</h3>
+                <p>We guarantee all the electrical installation work we carry out. We will give you this in writing when
+                  the work is finished.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <div class="icon-desc">
+                <i class="fa-solid fa-square-check"></i>
+                <h3>We work with precision</h3>
+                <p>Trust us and get quality work! With over 15 years of experience, our humility towards our profession
+                  is reflected in all our work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="two-man-army">
+    <div class="center-title">
+      <h2>Army of two</h2>
+      <hr style="width:42%;">
+    </div>
+    <div class="two-man-army-container">
+      <div class="image-container">
         <img loading="lazy" src="images/kétszemélyes-hadsereg-1.webp">
         <p class="text-overlay"><b>Horváth Norbert</b><br>electrical engineer</p>
-        </div>
-        <div class="image-container">
+      </div>
+      <div class="image-container">
         <img loading="lazy" src="images/kétszemélyes-hadsereg-2.webp">
         <p class="text-overlay"><b>Kovács Ágoston</b><br>electrical engineer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="azt-beszelik">
+    <div class="center-title">
+      <h2>They tell about us that..</h2>
+      <hr style="width:44%;">
+    </div>
+    <div class="azt-beszelik-container">
+      <div class="azt-beszelik-first-col">
+        <div class="azt-beszelik-image-div">
+          <img loading="lazy" src="images/nadudvari.webp">
+        </div>
+        <div class="azt-beszelik-name-opinion">
+          <p>The family and I moved into a new home. It is an old house, unfortunately with outdated electricity. I
+            found Norbi and Augusto, based on the website
+            they seemed like great experts. Indeed they are. They performed life-saving "surgery" on the electrical
+            network of our new home. Now I can keep my family safe, thanks to the Áramurak. I would recommend them to
+            everyone!</p>
+          <p>Nádudvary Gergő</p>
         </div>
       </div>
-    </section>
-
-    <section id="azt-beszelik">
-      <div class="center-title">
-        <h2>They tell about us that..</h2>
-        <hr style="width:44%;">
-      </div>
-      <div class="azt-beszelik-container">
-        <div class="azt-beszelik-first-col">
+      <div class="azt-beszelik-second-col">
+        <div class="second-col-box">
           <div class="azt-beszelik-image-div">
-            <img loading="lazy" src="images/nadudvari.webp">
+            <img loading="lazy" src="images/julia.webp">
           </div>
           <div class="azt-beszelik-name-opinion">
-            <p>The family and I moved into a new home. It is an old house, unfortunately with outdated electricity. I found Norbi and Augusto, based on the website
-              they seemed like great experts. Indeed they are. They performed life-saving "surgery" on the electrical network of our new home. Now I can keep my family safe, thanks to the Áramurak. I would recommend them to everyone!</p>
-            <p>Nádudvary Gergő</p>
+            <p>Thank you very much for the professional and fast work of the Áramurak. I wanted to have a new outlet
+              installed. They solved this task quickly and precisely.</p>
+            <p>Kovács Júlia</p>
           </div>
         </div>
-        <div class="azt-beszelik-second-col">
-          <div class="second-col-box">
-            <div class="azt-beszelik-image-div">
-              <img loading="lazy" src="images/julia.webp">
-            </div>
-            <div class="azt-beszelik-name-opinion">
-              <p>Thank you very much for the professional and fast work of the Áramurak. I wanted to have a new outlet installed. They solved this task quickly and precisely.</p>
-              <p>Kovács Júlia</p>
-            </div>
+        <div class="second-col-box">
+          <div class="azt-beszelik-image-div">
+            <img loading="lazy" src="images/margit.webp">
           </div>
-          <div class="second-col-box">
-            <div class="azt-beszelik-image-div">
-              <img loading="lazy" src="images/margit.webp">
-            </div>
-            <div class="azt-beszelik-name-opinion">
-              <p>I asked them for help with the wiring of an electric oven. Norbi and Ágoston did the job in spades. Thanks to them I can bake delicious meals for the family again.</p>
-              <p>Csepregi Margit</p>
-            </div>
+          <div class="azt-beszelik-name-opinion">
+            <p>I asked them for help with the wiring of an electric oven. Norbi and Ágoston did the job in spades.
+              Thanks to them I can bake delicious meals for the family again.</p>
+            <p>Csepregi Margit</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="galeria">
-      <div class="center-title">
-        <h2>Moments at work</h2>
-        <hr style="width:44%;">
+  <section id="galeria">
+    <div class="center-title">
+      <h2>Moments at work</h2>
+      <hr style="width:44%;">
+    </div>
+    <div class="slider">
+      <div class="slider-container">
+        <img loading="lazy" src="images/munkaközben1.webp">
+        <img loading="lazy" src="images/munkaközben3.webp">
+        <img loading="lazy" src="images/munkaközben4.webp">
+        <img loading="lazy" src="images/munkaközben5.webp">
+        <img loading="lazy" src="images/munkaközben6.webp">
+        <img loading="lazy" src="images/munkaközben7.webp">
+        <img loading="lazy" src="images/munkaközben9.webp">
+        <img loading="lazy" src="images/munkaközben10.webp">
       </div>
-      <div class="slider">
-        <div class="slider-container">
-          <img loading="lazy" src="images/munkaközben1.webp">
-          <img loading="lazy" src="images/munkaközben3.webp">
-          <img loading="lazy" src="images/munkaközben4.webp">
-          <img loading="lazy" src="images/munkaközben5.webp">
-          <img loading="lazy" src="images/munkaközben6.webp">
-          <img loading="lazy" src="images/munkaközben7.webp">
-          <img loading="lazy" src="images/munkaközben9.webp">
-          <img loading="lazy" src="images/munkaközben10.webp">
-        </div>
-        <button class="prev-btn">&lt;</button>
-        <button class="next-btn">&gt;</button>
-      </div>      
-    </section>
+      <button class="prev-btn">&lt;</button>
+      <button class="next-btn">&gt;</button>
+    </div>
+  </section>
 
-    <section id="soha-ne-feledje">
-      <div class="center-title">
-        <h2>Never forget!</h2>
-        <hr style="width:30%;">
-        <p>Lighting candles is romantic, but not very practical!</p>
-        <button id="responsive-btn" class="cta">
-          <span class="span"><i class="fa-solid fa-phone fa-shake telefon"></i> Okay... I'll call!</span>
-          <span class="second">
-            <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-              </g>
-            </svg>
-          </span> 
-        </button>
+  <section id="soha-ne-feledje">
+    <div class="center-title">
+      <h2>Never forget!</h2>
+      <hr style="width:30%;">
+      <p>Lighting candles is romantic, but not very practical!</p>
+      <button id="responsive-btn" class="cta">
+        <span class="span"><i class="fa-solid fa-phone fa-shake telefon"></i> Okay... I'll call!</span>
+        <span class="second">
+          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path class="one"
+                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="two"
+                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="three"
+                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                fill="#FFFFFF"></path>
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+
+    <div class="elerhetosegeink">
+      <div class="elerhetosegeink-second-col">
+        <img loading="lazy" src="images/aramurak-logo-szines.png">
+        <div class="social-div">
+          <a href="https://facebook.com/szakidesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/szaki_webdesign" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="elerhetosegeink">
-        <div class="elerhetosegeink-second-col">
-          <img loading="lazy" src="images/aramurak-logo-szines.png">
-          <div class="social-div">
-         <a href="https://facebook.com/szakidesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>         
-         <a href="https://instagram.com/szaki_webdesign" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        </div>      
-        </div>
-      </section>
+  <section id="copyright-section">
+    <div class="copyright">
+      <p>Copyright © 2023 Szaki Webdesign
+        Want a similar website for your business?<br>Visit here: <a href="https://szakidesign.hu"
+          target="_blank"><b>szakidesign.hu</b></a></p>
+    </div>
+  </section>
 
-      <section id="copyright-section">
-        <div class="copyright">
-          <p>Copyright © 2023 Szaki Webdesign
-            Want a similar website for your business?<br>Visit here: <a href="https://szakidesign.hu" target="_blank"><b>szakidesign.hu</b></a></p>
-         </div>
-      </section>
-
-    <script src="slider-gallery.js"></script>
-    <a href="index.html#navbar"><button class="up"><i class="fa-solid fa-arrow-up"></i></button></a>
-  </body>
+  <script src="slider-gallery.js"></script>
+  <a href="index.html#navbar"><button class="up"><i class="fa-solid fa-arrow-up"></i></button></a>
+</body>
 
 </html>
