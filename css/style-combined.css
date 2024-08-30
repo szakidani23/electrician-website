@@ -184,7 +184,7 @@ h3 {
 
   #azt-beszelik {
     background-image: linear-gradient(to bottom, #00000084, #000000e1),
-      url(images/ill1.webp);
+      url(../images/ill1.webp);
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -341,7 +341,7 @@ h3 {
 
   #soha-ne-feledje {
     background-image: linear-gradient(to bottom, #00000075, #000000),
-      url(images/ill5.webp);
+      url(../images/ill5.webp);
   }
 }
 
@@ -366,7 +366,7 @@ h3 {
   #hero {
     background-position: -60%;
     background-image: linear-gradient(to bottom, #213046, #000000a2),
-      url(images/hero-bg.webp);
+      url(../images/hero-bg.webp);
   }
 
   #hero h1 {
@@ -375,7 +375,7 @@ h3 {
 
   #lakastuz {
     background-image: linear-gradient(to bottom, #2130465c, #000000),
-      url(images/mountain-fire-smaller.webp);
+      url(../images/mountain-fire-smaller.webp);
   }
 
   #responsive-btn {
@@ -445,7 +445,7 @@ h3 {
 
 #hero {
   background-image: linear-gradient(to bottom, #213046, #00000000),
-    url(images/hero-bg.webp);
+    url(../images/hero-bg.webp);
   background-position: center;
   background-size: cover;
 }
@@ -488,7 +488,7 @@ h3 {
 
 #lakastuz {
   background-image: linear-gradient(to bottom, #2130465c, #000000),
-    url(images/mountain-fire.webp);
+    url(../images/mountain-fire.webp);
   background-size: cover;
   background-attachment: fixed;
   background-position: -280px;
@@ -582,7 +582,7 @@ h3 {
   display: grid;
   place-items: center;
   background-image: linear-gradient(to bottom, #0000008d, #000000),
-    url(images/az-otthona-védelmében-1.webp);
+    url(../images/az-otthona-védelmében-1.webp);
   background-position: center;
   background-size: cover;
   border-bottom: 2px solid var(--orange);
@@ -596,35 +596,35 @@ h3 {
 
 .card-two {
   background-image: linear-gradient(to bottom, #00000093, #000000),
-    url(images/az-otthona-védelmében-2.webp);
+    url(../images/az-otthona-védelmében-2.webp);
   background-position: center;
   background-size: cover;
 }
 
 .card-three {
   background-image: linear-gradient(to bottom, #00000090, #000000),
-    url(images/az-otthona-védelmében-3.webp);
+    url(../images/az-otthona-védelmében-3.webp);
   background-position: center;
   background-size: cover;
 }
 
 .card-four {
   background-image: linear-gradient(to bottom, #0000007e, #000000),
-    url(images/az-otthona-védelmében-4.webp);
+    url(../images/az-otthona-védelmében-4.webp);
   background-position: center;
   background-size: cover;
 }
 
 .card-five {
   background-image: linear-gradient(to bottom, #00000065, #000000),
-    url(images/az-otthona-védelmében-5.webp);
+    url(../images/az-otthona-védelmében-5.webp);
   background-position: center;
   background-size: cover;
 }
 
 .card-six {
   background-image: linear-gradient(to bottom, #00000098, #000000),
-    url(images/az-otthona-védelmében-6.webp);
+    url(../images/az-otthona-védelmében-6.webp);
   background-position: center;
   background-size: cover;
 }
@@ -672,7 +672,7 @@ h3 {
 #nagyobb-munka {
   padding-bottom: 15rem;
   background-image: linear-gradient(to bottom, #000000be, #00000097),
-    url(images/ill2.webp);
+    url(../images/ill2.webp);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -731,7 +731,7 @@ h3 {
 
 #ovoda-line {
   background-image: linear-gradient(to bottom, #000000c2, #000000cb),
-    url(images/az-óvodában-is-bg.webp);
+    url(../images/az-óvodában-is-bg.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -759,7 +759,7 @@ h3 {
 
 #why-choose-us {
   background-image: linear-gradient(to bottom, #0000009a, #000000cb),
-    url(images/ill3.webp);
+    url(../images/ill3.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -862,7 +862,7 @@ h3 {
 
 #two-man-army {
   background-image: linear-gradient(to bottom, #000000e1, #00000075),
-    url(images/ketszemelyes-bg.webp);
+    url(../images/ketszemelyes-bg.webp);
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -907,7 +907,7 @@ h3 {
 
 #azt-beszelik {
   background-image: linear-gradient(to bottom, #00000075, #000000e1),
-    url(images/ill1.webp);
+    url(../images/ill1.webp);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -981,7 +981,7 @@ h3 {
 
 #galeria {
   background-image: linear-gradient(to bottom, #000000e1, #00000075),
-    url(images/ill4.webp);
+    url(../images/ill4.webp);
   background-position: center;
   background-size: contain;
 }
@@ -1029,7 +1029,7 @@ h3 {
 
 #soha-ne-feledje {
   background-image: linear-gradient(to bottom, #00000075, #000000e1),
-    url(images/ill5.webp);
+    url(../images/ill5.webp);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
