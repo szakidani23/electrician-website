@@ -17,7 +17,7 @@ body {
 }
 
 section {
-  padding: 4rem !important;
+  padding: 2rem !important;
   background-color: var(--blue);
 }
 
@@ -200,7 +200,7 @@ h3 {
 
   .reason img {
     width: 100%;
-    height: 300px;
+    max-height: 300px;
     object-fit: cover;
     object-position: center;
   }
@@ -511,14 +511,14 @@ h3 {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width: 400px;
+  max-width: 400px;
   padding: 0 0 2rem 0;
   border-bottom: 6px solid var(--orange);
   transition: 0.2s;
 }
 
 .reason img {
-  width: 400px;
+  max-width: 400px;
   transition: 0.2s;
 }
 
@@ -530,10 +530,6 @@ h3 {
 
 .reason h3 {
   margin: 1.5rem 0;
-}
-
-.danger-div {
-  padding: 0 6%;
 }
 
 .dont-risk {
@@ -931,6 +927,7 @@ h3 {
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding: 2rem;
   gap: 2rem;
   box-shadow: 0 0 10px rgba(247, 157, 43, 0.7);
   transition: box-shadow 0.3s ease-in-out;
@@ -948,6 +945,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
   gap: 2rem;
   width: 100%;
   margin-bottom: 2rem;
@@ -974,7 +972,8 @@ h3 {
   background-image: linear-gradient(to bottom, #000000e1, #00000075),
     url(../images/ill4.webp);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  padding: 1rem !important;
 }
 
 .slider {
